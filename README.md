@@ -30,30 +30,7 @@ This project presents a **Deep Learning-based Railway Obstruction Detection Syst
 3. Deep learning model analyzes the input.
 4. Objects are detected and classified.
 5. Results are displayed with bounding boxes and confidence scores.
-
----
-
-## 📊 Results
-- ✅ Detection Accuracy: **94%**
-- ⚡ Detection Time: **< 2 seconds**
-- 📈 High performance across different lighting and environmental conditions
-
----
-
-## 🧪 Testing
-The system was tested under:
-- Different lighting conditions (day/night)
-- Various distances of objects
-- Multiple environments (stations, crossings, open tracks)
-
----
-
-## 🚧 Limitations
-- Performance may reduce in extreme weather (fog, heavy rain)
-- Requires GPU for faster processing
-- Dependent on dataset quality and diversity
-
----
+-
 
 ## 🔮 Future Scope
 - Integration with IoT sensors and railway signaling systems
