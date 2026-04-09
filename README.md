@@ -1,11 +1,11 @@
-# 🚆 Railway Obstruction Detection System using Deep Learning
+# Railway Obstruction Detection System using Deep Learning
 
 ## 📌 Overview
 This project presents a **Deep Learning-based Railway Obstruction Detection System** that uses computer vision techniques to automatically detect obstacles on railway tracks in real time. The system identifies objects such as humans, animals, vehicles, and debris to improve railway safety and reduce accidents.
 
 ---
 
-## 🎯 Features
+## Features
 - 🔍 Real-time object detection using deep learning
 - 🎥 Supports both image upload and live camera feed
 - 🧠 Multiple models: YOLO, SSD, Faster R-CNN, RetinaNet
@@ -64,6 +64,9 @@ The system was tested under:
 ---
 <img width="1873" height="997" alt="rail2" src="https://github.com/user-attachments/assets/259044c9-42f5-4e12-86d3-7712b3bc127d" />
 
+<img width="1897" height="958" alt="rail3" src="https://github.com/user-attachments/assets/5f79b721-50f1-4bfd-a16c-fec6badb60a3" />
+<img width="1790" height="900" alt="rail4" src="https://github.com/user-attachments/assets/9a22d06d-4e49-4ea3-a1a1-a285cc4af82a" />
+<img width="1767" height="887" alt="rail5" src="https://github.com/user-attachments/assets/658cdba3-16c5-4b85-a16e-00cf591eb409" />
 
 
 ---
@@ -72,8 +75,6 @@ The system was tested under:
 
 ---
 
-## 📄 License
-This project is for academic and research purposes.
 
 ---
 
