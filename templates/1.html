@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="zxx">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Title -->
+	<title>Form</title>
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" href="static/assets/img/favicon.png">
+	<!-- Bootstrap Min CSS -->
+	<link rel="stylesheet" href="static/assets/css/bootstrap.min.css">
+	<!-- Animate Min CSS -->
+	<link rel="stylesheet" href="static/assets/css/animate.min.css">
+	<!-- FlatIcon CSS -->
+	<link rel="stylesheet" href="static/assets/css/flaticon.css">
+	<!-- Bootstrap Icon CSS -->
+	<link rel="stylesheet" href="static/assets/css/bootstrap-icons.css">
+	<!-- Font Awesome Min CSS -->
+	<link rel="stylesheet" href="static/assets/css/fontawesome.min.css">
+	<!-- Mean Menu CSS -->
+	<link rel="stylesheet" href="static/assets/css/meanmenu.css">
+	<!-- Magnific Popup Min CSS -->
+	<link rel="stylesheet" href="static/assets/css/magnific-popup.min.css">
+	<!-- Swiper Min CSS -->
+	<link rel="stylesheet" href="static/assets/css/swiper.min.css">
+	<!-- Owl Carousel Min CSS -->
+	<link rel="stylesheet" href="static/assets/css/owl.carousel.min.css">
+	<!-- Style CSS -->
+	<link rel="stylesheet" href="static/assets/css/style.css">
+	<!-- Responsive CSS -->
+	<link rel="stylesheet" href="static/assets/css/responsive.css">
+</head>
+
+<body>
+
+	<!-- Start Preloader Section -->
+	<div id="preloader">
+		<div id="preloader-center"></div>
+	</div>
+	<!-- End Preloader Section -->
+	
+	<!-- Start Navbar Section -->
+	<div class="navbar-area">
+	    <div class="optimize-responsive-nav">
+	        <div class="container">
+	            <div class="optimize-responsive-menu">
+	                <div class="logo">
+	                    <a href="#">
+	                        <img src="static/assets/img/logo-black.png" class="white-logo" alt="logo">
+	                        <img src="static/assets/img/logo-black.png" class="black-logo" alt="logo">
+	                    </a>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	    <div class="optimize-nav">
+	        <div class="container">
+	            <nav class="navbar navbar-expand-md navbar-light">
+	                <a class="navbar-brand" href="#">
+	                    <img src="static/assets/img/logo-black.png" class="white-logo" alt="logo">
+	                    <img src="static/assets/img/logo-black.png" class="black-logo" alt="logo">
+	                </a>
+	                <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+	                    <ul class="navbar-nav">
+	                        
+	                        <li class="nav-item">
+	                            <a href="/index" class="nav-link">Detection</a>
+	                        </li>
+                           <li class="nav-item">
+                              <a href="/about" class="nav-link">Graph</a>
+                           </li>
+                           <li class="nav-item">
+                              <a href="/notebook" class="nav-link">Notebook</a>
+                           </li>
+	                        
+	                    </ul>
+	                    <div class="other-option">
+	                        <a class="default-btn" href="/login">Signout <span></span></a>
+	                    </div>
+	                </div>
+	            </nav>
+	        </div>
+	    </div>
+	</div>
+	<!-- End Navbar Section -->
+	
+	<!-- Start Slider Section -->
+    <header class="slider slider-prlx">
+        <div class="swiper-container parallax-slider">
+            <div class="swiper-wrapper">
+                
+                
+                <div class="swiper-slide">
+                    <div class="bg-img valign" data-background="static/assets/img/slider-3.jpg" data-overlay-dark="5">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-8 offset-lg-2 col-md-12">
+                                    <div class="caption">
+										<ul class="social-icon-list">
+											<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+											<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+											<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+											<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+										</ul>
+                                        <h1>Welcome to Dashboard!</h1>
+                                        <p>Railway Intrusion Detection Based on Machine Vision: A Survey, Challenges, and Perspectives</p>
+										
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- slider setting -->
+            <div class="control-text">
+                <div class="swiper-button-prev swiper-nav-ctrl prev-ctrl cursor-pointer">
+                    <span class="arrow prv"></span>
+                </div>
+                <div class="swiper-button-next swiper-nav-ctrl next-ctrl cursor-pointer">
+                    <span class="arrow nxt"></span>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </header>
+    <!-- End Slider Section -->
+	
+	<!-- Start About Section -->
+	<section class="about-section section-padding">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-6 col-md-12">
+               <h1>Form</h1><br>
+    
+            <form class="form-signin" action="/predict" method=post enctype=multipart/form-data>
+                <h1 class="h3 mb-3 font-weight-normal">Upload any image</h1>
+                <input type="file" name="file" class="form-control-file" id="inputfile">
+                <br/>
+                <button style="width: 500px;" class="btn btn-lg btn-primary btn-block" type="submit">Upload</button>
+                
+            </form>
+            <script src="//code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+            <script src="//stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+            <script type="text/javascript">
+            $('#inputfile').bind('change', function() {
+                let fileSize = this.files[0].size/1024/1024; // this gives in MB
+                if (fileSize > 10) {
+                    $("#inputfile").val(null);
+                    alert('file is too big. images more than 10MB are not allowed')
+                    return
+                }
+
+                let ext = $('#inputfile').val().split('.').pop().toLowerCase();
+                if($.inArray(ext, ['jpg','jpeg','png']) == -1) {
+                    $("#inputfile").val(null);
+                    alert('only jpeg/jpg files are allowed!');
+                }
+            });
+            </script>
+      </div>
+   </div>
+</div>
+</section>
+<!-- End About Section -->
+
+
+
+
+<!-- Start Go Top Section -->
+<div class="go-top">
+<i class="fas fa-chevron-up"></i>
+<i class="fas fa-chevron-up"></i>
+</div>
+<!-- End Go Top Section -->
+
+<!-- jQuery Min JS -->
+<script src="static/assets/js/jquery.min.js"></script>
+<!-- Popper Min JS -->
+<script src="static/assets/js/popper.min.js"></script>
+<!-- Bootstrap Min JS -->
+<script src="static/assets/js/bootstrap.bundle.min.js"></script>
+<!-- Mean Menu JS -->
+<script src="static/assets/js/jquery.meanmenu.js"></script>
+<!-- Appear Min JS -->
+<script src="static/assets/js/jquery.appear.min.js"></script>
+<!-- CounterUp Min JS -->
+<script src="static/assets/js/jquery.waypoints.min.js"></script>
+<script src="static/assets/js/jquery.counterup.min.js"></script>
+<!-- Magnific Popup Min JS -->
+<script src="static/assets/js/jquery.magnific-popup.min.js"></script>
+<!-- Owl Carousel Min JS -->
+<script src="static/assets/js/owl.carousel.min.js"></script>
+<!-- Swiper Min JS -->
+<script src="static/assets/js/swiper.min.js"></script>
+<!-- WOW Min JS -->
+<script src="static/assets/js/wow.min.js"></script>
+<!-- Main JS -->
+<script src="static/assets/js/main.js"></script>
+
+</body>
+
+</html>
